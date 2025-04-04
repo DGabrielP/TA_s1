@@ -1,0 +1,51 @@
+    1  pwd
+    2  echo "Linea de texto"
+    3  whoami
+    4  who
+    5  mkdir proyecto_comandos
+    6  ls -al
+    7  ls
+    8  cd proyecto_comandos/
+    9  mk dir documentos imagenes scrips
+   10  ls
+   11  mkdir documentos imagenes sccrips
+   12  ls
+   13  cd documentos/
+   14  touch notas.txt
+   15  ls
+   16  echo "Este es un archivo de notas" >> notas.txt
+   17  echo "nota 1: hoy es viernes"
+   18  echo "nota 1: hoy es viernes" >> notas.txt echo "nota 2: este deber es para hoy" 
+   19  nano notas.txt
+   20  cp notas.txt /home/diego_gabriel/proyecto_comandos/sccrips/
+   21  cd .
+   22  cd ..
+   23  cd sccrips/
+   24  ls
+   25  mv notas.txt backup_notas.txt
+   26  ls
+   27  mv backup_notas.txt /home/diego_gabriel/proyecto_comandos/imagenes/
+   28  cd ..
+   29  cd imagenes/
+   30  ls
+   31  cd ..
+   32  cd documentos/
+   33  touch resume.txt
+   34  cat notas.txt > /home/diego_gabriel/proyecto_comandos/documentos/resumen.txt
+   35  cat notas.txt > ~/Documentos/resume.txt
+   36  cat notas.txt > /home/diego_gabriel/proyecto_comandos/documentos/resume.txt
+   37  ls
+   38  cat ~/proyecto_comandos/documentos/notas.txt > ~/proyecto_comandos/documentos/resume.txt
+   39  echo "Nueva linea que no se sobre escribe" >> resume.txt
+   40  nano resume.txt
+   41  rm ~/proyecto_comandos/imagenes/backup_notas.txt
+   42  cd..
+   43  cd ..
+   44  cd imagenes
+   45  ls
+   46  cd ..
+   47  rmdir imagenes
+   48  ls
+   49  de documentos/
+   50  histoy > tarea-s1-diego_pulagrin.txt
+   51  history > tarea-s1-diego_pulagrin.txt
